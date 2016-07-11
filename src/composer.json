@@ -1,0 +1,30 @@
+{
+    "name": "yanguanglan/oauth2-storage-redis",
+    "description": "Redis storage adapter for the League's PHP OAuth 2.0 server.",
+    "keywords": ["oauth2", "server", "league", "redis", "adpater"],
+    "license": "BSD-2-Clause",
+    "authors": [
+        {
+            "name": "Yanguang Lan",
+            "email": "yanguanglan@gmail.com"
+        }
+    ],
+    "require": {
+        "predis/predis": "~1.0"
+    },
+    "require-dev": {
+        "league/oauth2-server": "4.1.*",
+        "squizlabs/php_codesniffer": "~1.5",
+        "mockery/mockery": "~0.9"
+    },
+    "autoload": {
+        "psr-4": {
+            "YanguangLan\\OAuth2\\Storage\\Redis\\": "src"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev-master": "0.1-dev"
+        }
+    }
+}
